@@ -1,0 +1,56 @@
+/* CSS untuk container */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Membuat posisi modal terkait dengan container */
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* CSS untuk modal */
+.info-modal {
+  position: fixed; /* Tetap di tempat saat scrolling */
+  z-index: 1; /* Menempatkan modal di atas semua elemen lain */
+  left: 35%;
+  background-color: blanchedalmond;
+  top: 40%;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+}
